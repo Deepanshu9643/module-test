@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+
+
+header{
+    /* width: 1728px; */
+  
+}
+
+.navbar{
+    background-color: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 86px;
+   position: sticky;
+}
+.navbar .logo{
+width: 127px;
+height: 39px;
+
+font-family: Montserrat;
+font-weight: 700;
+font-size:32px ;
+
+color: #000000;
+margin-left: 1rem;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 1000;
+    padding-left: 20px;  
+    margin-right: 1rem;
+}
+
+.first-section{
+    display: flex;
+    padding: 50px;
+   
+}
+
+.first-section h1{
+    color:  #FFFFFF;
+}
+
+.para{
+color: #FFFFFF;
+}
+
+.jeff-image img{
+ width: 25rem;
+ 
+
+}
+.log-button{
+
+background-color: #FCAF02;
+color: #000000;
+border-radius: 50px;
+height: 2.5rem;
+width: 8rem;
+font-size: larger;
+font-family: Montserrat;
+border: none;
+}
+
+
+.Contact-part h2{
+    color: #FCAF02;
+    font-size: 32px;
+    margin-left: 1rem;
+}
+input::placeholder{
+    color: #FCAF02;
+    padding: 15px;
+    /* opacity: 1212; */
+}
+
+.Contact-part input{
+    border-radius:20px ;
+    width: 98%;
+    height: 40px;
+    margin-left: 1rem;
+    border:2px solid#FCAF02;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #000;
+    
+}
+
+.contact-deatil{
+    width: 99.5%;
+    display: flex;
+}
+
+.submit-button{
+    background-color: #FCAF02;
+    color: #000000;
+    border-radius: 20px;
+    width: 325px;
+    height: 62px;
+    font-size: x-large;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.table-section {
+    padding: 50px;
+    color: #FCAF02
+}
+
+table {
+    width: 100%;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+table, th, td {
+    border: 2px solid #FCAF02;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    /* background-color: #ffcc00; */
+    color: #FCAF02
+}
+
+tfoot {
+    background-color: #FCAF02;
+    color:#000000;
+}
+
+.bttn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
